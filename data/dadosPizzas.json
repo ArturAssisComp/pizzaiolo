@@ -1,0 +1,508 @@
+{
+    "pizzas":[
+        {
+            "_id":1,
+            "nome": "Três Garotos",
+            "preco":{
+                "grande": 48.00,
+                "gidante": 96.00
+            },
+            "acompanhamentos":"Presunto, Milho, Cebola, Ovos, Tomates, Mussarela, Calabresa e Bacon"
+        },
+        {
+            "_id":2,
+            "nome": "Dois Queijos",
+            "preco":{
+                "grande": 37.99,
+                "gidante": 74.99
+            },
+            "acompanhamentos":"Mussarela e Catupiry"
+        },
+        {
+            "_id":3,
+            "nome": "Três Queijos",
+            "preco":{
+                "grande": 46.00,
+                "gidante": 91.00
+            },
+            "acompanhamentos":"Mussarela, Catupiry e Provolone"
+        },
+        {
+            "_id":4,
+            "nome": "Quatro Queijos",
+            "preco":{
+                "grande": 48.00,
+                "gidante": 96.00
+            },
+            "acompanhamentos":"Mussarela, Catupiry, Provolone e Parmesão"
+        },
+        {
+            "_id":5,
+            "nome": "Cinco Queijos",
+            "preco":{
+                "grande": 48.00,
+                "gidante": 96.00
+            },
+            "acompanhamentos":"Mussarela, Catupiry, Provolone, Parmesão e Gorgonzola"
+        },
+        {
+            "_id":6,
+            "nome": "Napolitana",
+            "preco":{
+                "grande": 46.00,
+                "gidante": 92.00
+            },
+            "acompanhamentos":"Mussarela, Tomate e Parmesão"
+        },
+        {
+            "_id":7,
+            "nome": "Marguerita",
+            "preco":{
+                "grande": 46.00,
+                "gidante": 92.00
+            },
+            "acompanhamentos":"Mussarela, Tomate, Parmesão e Manjericão"
+        },
+        {
+            "_id":8,
+            "nome": "Calabresa",
+            "preco":{
+                "grande": 37.99,
+                "gidante": 74.99
+            },
+            "acompanhamentos":"Calabresa e Cebola"
+        },
+        {
+            "_id":9,
+            "nome": "Escarola",
+            "preco":{
+                "grande": 37.99,
+                "gidante": 74.99
+            },
+            "acompanhamentos":"Escarola, Mussarela e Bacon"
+        },
+        {
+            "_id":10,
+            "nome": "Portuguesa",
+            "preco":{
+                "grande": 44.00,
+                "gidante": 90.00
+            },
+            "acompanhamentos":"Presunto, Ervilha, Ovos, Cebola e Mussarela"
+        },
+        {
+            "_id":11,
+            "nome": "Frango",
+            "preco":{
+                "grande": 44.00,
+                "gidante": 90.00
+            },
+            "acompanhamentos":"Frango e Catupiry"
+        },
+        {
+            "_id":12,
+            "nome": "Paulista",
+            "preco":{
+                "grande": 46.00,
+                "gidante": 92.00
+            },
+            "acompanhamentos":"Mussarela, Calabresa e Bacon"
+        },
+        {
+            "_id":13,
+            "nome": "A Moda do Chefe",
+            "preco":{
+                "grande": 48.00,
+                "gidante": 96.00
+            },
+            "acompanhamentos":"Frango, Presunto, Mussarela, Calabresa e Bacon"
+        },
+        {
+            "_id":14,
+            "nome": "Alvorada",
+            "preco":{
+                "grande": 48.00,
+                "gidante": 96.00
+            },
+            "acompanhamentos":"Mussarela, Lombo, Bacon e Calabresa"
+        },
+        {
+            "_id":15,
+            "nome": "Baiana",
+            "preco":{
+                "grande": 48.00,
+                "gidante": 96.00
+            },
+            "acompanhamentos":"Mussarela, Calabresa Moída, Ovo, Pimenta e Bacon"
+        },
+        {
+            "_id":17,
+            "nome": "Atum",
+            "preco":{
+                "grande": 43.00,
+                "gidante": 85.00
+            },
+            "acompanhamentos":"Atum e Cebola"
+        },
+        {
+            "_id":18,
+            "nome": "Atum II",
+            "preco":{
+                "grande": 43.00,
+                "gidante": 85.00
+            },
+            "acompanhamentos":"Mussarela, Atum, Tomate, Cebola, Parmesão e Bacon"
+        },
+        {
+            "_id":19,
+            "nome": "Chilena",
+            "preco":{
+                "grande": 48.00,
+                "gidante": 96.00
+            },
+            "acompanhamentos":"Peito de Pero, Champignon, Cheddar e Mussarela"
+        },
+        {
+            "_id":20,
+            "nome": "Tomate Seco",
+            "preco":{
+                "grande": 48.00,
+                "gidante": 96.00
+            },
+            "acompanhamentos":"Tomate Seco, Mussarela e Rúcula"
+        },
+        {
+            "_id":21,
+            "nome": "Selva",
+            "preco":{
+                "grande": 46.00,
+                "gidante": 92.00
+            },
+            "acompanhamentos":"Brócolis, Palmito, Tomate, Mussarela e Bacon"
+        },
+        {
+            "_id":22,
+            "nome": "Bom Apetite",
+            "preco":{
+                "grande": 45.00,
+                "gidante": 90.00
+            },
+            "acompanhamentos":"Frango, Mussarela e Bacon"
+        },
+        {
+            "_id":23,
+            "nome": "Peruana",
+            "preco":{
+                "grande": 48.00,
+                "gidante": 96.00
+            },
+            "acompanhamentos":"Peito de Peru, Tomate, Palmito, Ovos, Atum e Mussarela"
+        },
+        {
+            "_id":24,
+            "nome": "Calafrango",
+            "preco":{
+                "grande": 48.00,
+                "gidante": 96.00
+            },
+            "acompanhamentos":"Frango, Mussarela e Calabresa"
+        },
+        {
+            "_id":25,
+            "nome": "Romanesca",
+            "preco":{
+                "grande": 48.00,
+                "gidante": 96.00
+            },
+            "acompanhamentos":"Presunto, Palmito, Catupiry e Bacon"
+        },
+        {
+            "_id":26,
+            "nome": "Milho",
+            "preco":{
+                "grande": 37.99,
+                "gidante": 74.99
+            },
+            "acompanhamentos":"Milho e Mussarela"
+        },
+        {
+            "_id":27,
+            "nome": "Mista",
+            "preco":{
+                "grande": 37.99,
+                "gidante": 74.99
+            },
+            "acompanhamentos":"Presunto, Tomate e Mussarela"
+        },
+        {
+            "_id":28,
+            "nome": "Bacon",
+            "preco":{
+                "grande": 37.99,
+                "gidante": 74.99
+            },
+            "acompanhamentos":"Mussarela, Tomate e Bacon"
+        },
+        {
+            "_id":29,
+            "nome": "Sete Estações",
+            "preco":{
+                "grande": 54.00,
+                "gidante": 108.00
+            },
+            "acompanhamentos":"Escolha Sete Ingredientes e Monte a Sua"
+        },
+        {
+            "_id":30,
+            "nome": "Lombo",
+            "preco":{
+                "grande": 45.00,
+                "gidante": 94.00
+            },
+            "acompanhamentos":"Lombo, Cebola, Ovos e Catupiry"
+        },
+        {
+            "_id":31,
+            "nome": "Brócolis",
+            "preco":{
+                "grande": 45.00,
+                "gidante": 92.00
+            },
+            "acompanhamentos":"Brócolis, Catupiry e Bacon"
+        },
+        {
+            "_id":32,
+            "nome": "Palmares",
+            "preco":{
+                "grande": 46.00,
+                "gidante": 94.00
+            },
+            "acompanhamentos":"Presunto, Frango, Palmito, Mussarela e Bacon"
+        },
+        {
+            "_id":33,
+            "nome": "Romana",
+            "preco":{
+                "grande": 46.00,
+                "gidante": 92.00
+            },
+            "acompanhamentos":"Mussarela, Tomate, Aliche e Parmesão"
+        },
+        {
+            "_id":34,
+            "nome": "Filé Mignon",
+            "preco":{
+                "grande": 54.00,
+                "gidante": 108.00
+            },
+            "acompanhamentos":"Brócolis, File Mignon, Palmito e Mussarela"
+        },
+        {
+            "_id":35,
+            "nome": "Argentina",
+            "preco":{
+                "grande": 44.00,
+                "gidante": 92.00
+            },
+            "acompanhamentos":"Atum, Champignon, Cebola, Mussarela e Bacon"
+        },
+        {
+            "_id":36,
+            "nome": "Palmito",
+            "preco":{
+                "grande": 45.00,
+                "gidante": 92.00
+            },
+            "acompanhamentos":"Palmito, Tomate e Mussarela"
+        },
+        {
+            "_id":37,
+            "nome": "Toscana",
+            "preco":{
+                "grande": 44.00,
+                "gidante": 90.00
+            },
+            "acompanhamentos":"Mussarela, Calabresa e Cebola"
+        },
+        {
+            "_id":38,
+            "nome": "Mussarela",
+            "preco":{
+                "grande": 44.00,
+                "gidante": 90.00
+            },
+            "acompanhamentos":"Mussarela e Tomate"
+        },
+        {
+            "_id":39,
+            "nome": "Primavera",
+            "preco":{
+                "grande": 46.00,
+                "gidante": 92.00
+            },
+            "acompanhamentos":"Lombo, Palmito, Mussarela e Tomate"
+        },
+        {
+            "_id":40,
+            "nome": "Seresta",
+            "preco":{
+                "grande": 44.00,
+                "gidante": 92.00
+            },
+            "acompanhamentos":"Brócolis, Escarola, Palmito, Milho, Ervilha, Mussarela e Tomate"
+        },
+        {
+            "_id":41,
+            "nome": "Pizzaiola",
+            "preco":{
+                "grande": 48.00,
+                "gidante": 96.00
+            },
+            "acompanhamentos":"Frango, Presunto, Catupiry, Calabresa e Bacon"
+        },
+        {
+            "_id":42,
+            "nome": "Francesa",
+            "preco":{
+                "grande": 48.00,
+                "gidante": 96.00
+            },
+            "acompanhamentos":"Frango, Milho, Palmito, Mussarela e Bacon"
+        },
+        {
+            "_id":43,
+            "nome": "Franbocolis",
+            "preco":{
+                "grande": 48.00,
+                "gidante": 96.00
+            },
+            "acompanhamentos":"Frango, Brócolis, Lombo, Mussarela e Catupiry"
+        },
+        {
+            "_id":45,
+            "nome": "Peito de Peru",
+            "preco":{
+                "grande": 47.00,
+                "gidante": 94.00
+            },
+            "acompanhamentos":"Peito de Peru, Mussarela e Cheddar"
+        },
+        {
+            "_id":46,
+            "nome": "Alho e Óleo",
+            "preco":{
+                "grande": 45.00,
+                "gidante": 92.00
+            },
+            "acompanhamentos":"Mussarela e Alho Frito"
+        },
+        {
+            "_id":47,
+            "nome": "Siciliana",
+            "preco":{
+                "grande": 45.00,
+                "gidante": 92.00
+            },
+            "acompanhamentos":"Milho, Champignon, Catupiry e Bacon"
+        },
+        {
+            "_id":48,
+            "nome": "Italiana",
+            "preco":{
+                "grande": 45.00,
+                "gidante": 90.00
+            },
+            "acompanhamentos":"Presunto, Tomate, Azeitona Picada e Mussarela"
+        },
+        {
+            "_id":49,
+            "nome": "Carijó",
+            "preco":{
+                "grande": 48.00,
+                "gidante": 96.00
+            },
+            "acompanhamentos":"Frango, Milho, Catupiry e Bacon"
+        },
+        {
+            "_id":50,
+            "nome": "Charmosa",
+            "preco":{
+                "grande": 50.00,
+                "gidante": 102.00
+            },
+            "acompanhamentos":"Presunto, Palmito, Ovos, Mussarela, Calabresa e Bacon"
+        },
+        {
+            "_id":51,
+            "nome": "Calabacon",
+            "preco":{
+                "grande": 46.00,
+                "gidante": 96.00
+            },
+            "acompanhamentos":"Catupiry, Calabresa, Cebola e Bacon"
+        },
+        {
+            "_id":52,
+            "nome": "Hot Dog",
+            "preco":{
+                "grande": 37.99,
+                "gidante": 74.99
+            },
+            "acompanhamentos":"Salsicha, Mussarela, Milho, Tomate e Batata Palha"
+        },
+        {
+            "_id":53,
+            "nome": "Peperone",
+            "preco":{
+                "grande": 48.00,
+                "gidante": 96.00
+            },
+            "acompanhamentos":"Mussarela e Peperone"
+        },
+        {
+            "_id":54,
+            "nome": "Nutella",
+            "preco":{
+                "grande": 48.00,
+                "gidante": 100.00
+            },
+            "acompanhamentos":"Nutella e Morango"
+        },
+        {
+            "_id":55,
+            "nome": "Chocolate",
+            "preco":{
+                "grande": 44.00,
+                "gidante": 90.00
+            },
+            "acompanhamentos":"Chocolate, Morango e Granulado"
+        },
+        {
+            "_id":56,
+            "nome": "Banana",
+            "preco":{
+                "grande": 38.00,
+                "gidante": 76.00
+            },
+            "acompanhamentos":"Mussarela, Banana, Canela e Açucar"
+        },
+        {
+            "_id":59,
+            "nome": "Romeu e Julieta",
+            "preco":{
+                "grande": 38.00,
+                "gidante": 76.00
+            },
+            "acompanhamentos":"Mussarela e Goiabada"
+        },
+        {
+            "_id":60,
+            "nome": "Chocobanana",
+            "preco":{
+                "grande": 37.99,
+                "gidante": 74.99
+            },
+            "acompanhamentos":"Banana e Chocolate"
+        }
+    ]
+}
