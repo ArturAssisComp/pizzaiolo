@@ -428,9 +428,16 @@
         },
         {
             "_id": "8b79271c9e624ab78385a0358a20a290",
-            "acompanhamentos": [
-                "Escolha Sete Ingredientes",
-                "Monte a Sua"
+            "ingredientes_possiveis": [
+                "Mussarela", 
+                "Tomate", 
+                "Bacon",
+                "Presunto",
+                "Palmito",
+                "Catupiry",
+                "Frango",
+                "Calabresa",
+                "Milho"
             ],
             "nome": "Sete Esta\u00e7\u00f5es",
             "numero_cardapio": 29,
@@ -438,6 +445,7 @@
                 "gigante": 108.0,
                 "grande": 54.0
             },
+            "numero_de_ingredientes":7,
             "tipo": "escolha-ingredientes"
         },
         {
