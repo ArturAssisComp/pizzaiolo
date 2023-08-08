@@ -1,508 +1,886 @@
 {
-    "pizzas":[
+    "pizzas": [
         {
-            "_id":1,
-            "nome": "Três Garotos",
-            "preco":{
-                "grande": 48.00,
-                "gidante": 96.00
+            "_id": "93e765a0b2e04e5ab3ce0bbcd47f3128",
+            "acompanhamentos": [
+                "Presunto",
+                "Milho",
+                "Cebola",
+                "Ovos",
+                "Tomates",
+                "Mussarela",
+                "Calabresa",
+                "Bacon"
+            ],
+            "nome": "Tr\u00eas Garotos",
+            "numero_cardapio": 1,
+            "preco": {
+                "gigante": 96.0,
+                "grande": 48.0
             },
-            "acompanhamentos":"Presunto, Milho, Cebola, Ovos, Tomates, Mussarela, Calabresa e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":2,
+            "_id": "2736e61b605b45c4bd0e938fd97aa50d",
+            "acompanhamentos": [
+                "Mussarela",
+                "Catupiry"
+            ],
             "nome": "Dois Queijos",
-            "preco":{
-                "grande": 37.99,
-                "gidante": 74.99
+            "numero_cardapio": 2,
+            "preco": {
+                "gigante": 74.99,
+                "grande": 37.99
             },
-            "acompanhamentos":"Mussarela e Catupiry"
+            "tipo": "normal"
         },
         {
-            "_id":3,
-            "nome": "Três Queijos",
-            "preco":{
-                "grande": 46.00,
-                "gidante": 91.00
+            "_id": "d78bfcc69328447eadee3dfd242fd74b",
+            "acompanhamentos": [
+                "Mussarela",
+                "Catupiry",
+                "Provolone"
+            ],
+            "nome": "Tr\u00eas Queijos",
+            "numero_cardapio": 3,
+            "preco": {
+                "gigante": 91.0,
+                "grande": 46.0
             },
-            "acompanhamentos":"Mussarela, Catupiry e Provolone"
+            "tipo": "normal"
         },
         {
-            "_id":4,
+            "_id": "1402cfd4231e45c3b0ad8a6a0e34be14",
+            "acompanhamentos": [
+                "Mussarela",
+                "Catupiry",
+                "Provolone",
+                "Parmes\u00e3o"
+            ],
             "nome": "Quatro Queijos",
-            "preco":{
-                "grande": 48.00,
-                "gidante": 96.00
+            "numero_cardapio": 4,
+            "preco": {
+                "gigante": 96.0,
+                "grande": 48.0
             },
-            "acompanhamentos":"Mussarela, Catupiry, Provolone e Parmesão"
+            "tipo": "normal"
         },
         {
-            "_id":5,
+            "_id": "fd47296585a34c52a3fa21e1fd2362a0",
+            "acompanhamentos": [
+                "Mussarela",
+                "Catupiry",
+                "Provolone",
+                "Parmes\u00e3o",
+                "Gorgonzola"
+            ],
             "nome": "Cinco Queijos",
-            "preco":{
-                "grande": 48.00,
-                "gidante": 96.00
+            "numero_cardapio": 5,
+            "preco": {
+                "gigante": 96.0,
+                "grande": 48.0
             },
-            "acompanhamentos":"Mussarela, Catupiry, Provolone, Parmesão e Gorgonzola"
+            "tipo": "normal"
         },
         {
-            "_id":6,
+            "_id": "38c7426e75534a00a1ceb50cb45d095a",
+            "acompanhamentos": [
+                "Mussarela",
+                "Tomate",
+                "Parmes\u00e3o"
+            ],
             "nome": "Napolitana",
-            "preco":{
-                "grande": 46.00,
-                "gidante": 92.00
+            "numero_cardapio": 6,
+            "preco": {
+                "gigante": 92.0,
+                "grande": 46.0
             },
-            "acompanhamentos":"Mussarela, Tomate e Parmesão"
+            "tipo": "normal"
         },
         {
-            "_id":7,
+            "_id": "809e357fe736488592315065aaaa83e2",
+            "acompanhamentos": [
+                "Mussarela",
+                "Tomate",
+                "Parmes\u00e3o",
+                "Manjeric\u00e3o"
+            ],
             "nome": "Marguerita",
-            "preco":{
-                "grande": 46.00,
-                "gidante": 92.00
+            "numero_cardapio": 7,
+            "preco": {
+                "gigante": 92.0,
+                "grande": 46.0
             },
-            "acompanhamentos":"Mussarela, Tomate, Parmesão e Manjericão"
+            "tipo": "normal"
         },
         {
-            "_id":8,
+            "_id": "020a08680c4145b8a1b608fa3b588337",
+            "acompanhamentos": [
+                "Calabresa",
+                "Cebola"
+            ],
             "nome": "Calabresa",
-            "preco":{
-                "grande": 37.99,
-                "gidante": 74.99
+            "numero_cardapio": 8,
+            "preco": {
+                "gigante": 74.99,
+                "grande": 37.99
             },
-            "acompanhamentos":"Calabresa e Cebola"
+            "tipo": "normal"
         },
         {
-            "_id":9,
+            "_id": "336eed9338c048ffa8e31c57b39fc80d",
+            "acompanhamentos": [
+                "Escarola",
+                "Mussarela",
+                "Bacon"
+            ],
             "nome": "Escarola",
-            "preco":{
-                "grande": 37.99,
-                "gidante": 74.99
+            "numero_cardapio": 9,
+            "preco": {
+                "gigante": 74.99,
+                "grande": 37.99
             },
-            "acompanhamentos":"Escarola, Mussarela e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":10,
+            "_id": "b5791d30a7ec4620a3dc36e947ef42e9",
+            "acompanhamentos": [
+                "Presunto",
+                "Ervilha",
+                "Ovos",
+                "Cebola",
+                "Mussarela"
+            ],
             "nome": "Portuguesa",
-            "preco":{
-                "grande": 44.00,
-                "gidante": 90.00
+            "numero_cardapio": 10,
+            "preco": {
+                "gigante": 90.0,
+                "grande": 44.0
             },
-            "acompanhamentos":"Presunto, Ervilha, Ovos, Cebola e Mussarela"
+            "tipo": "normal"
         },
         {
-            "_id":11,
+            "_id": "a5850e1b065045d8aec05b1952e4efbd",
+            "acompanhamentos": [
+                "Frango",
+                "Catupiry"
+            ],
             "nome": "Frango",
-            "preco":{
-                "grande": 44.00,
-                "gidante": 90.00
+            "numero_cardapio": 11,
+            "preco": {
+                "gigante": 90.0,
+                "grande": 44.0
             },
-            "acompanhamentos":"Frango e Catupiry"
+            "tipo": "normal"
         },
         {
-            "_id":12,
+            "_id": "4bd165f8e146463c8901039466a33442",
+            "acompanhamentos": [
+                "Mussarela",
+                "Calabresa",
+                "Bacon"
+            ],
             "nome": "Paulista",
-            "preco":{
-                "grande": 46.00,
-                "gidante": 92.00
+            "numero_cardapio": 12,
+            "preco": {
+                "gigante": 92.0,
+                "grande": 46.0
             },
-            "acompanhamentos":"Mussarela, Calabresa e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":13,
+            "_id": "303f6c3ae18542f79b77e19d6817644c",
+            "acompanhamentos": [
+                "Frango",
+                "Presunto",
+                "Mussarela",
+                "Calabresa",
+                "Bacon"
+            ],
             "nome": "A Moda do Chefe",
-            "preco":{
-                "grande": 48.00,
-                "gidante": 96.00
+            "numero_cardapio": 13,
+            "preco": {
+                "gigante": 96.0,
+                "grande": 48.0
             },
-            "acompanhamentos":"Frango, Presunto, Mussarela, Calabresa e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":14,
+            "_id": "42fcdf8900e549d986eb63dc586ff8fa",
+            "acompanhamentos": [
+                "Mussarela",
+                "Lombo",
+                "Bacon",
+                "Calabresa"
+            ],
             "nome": "Alvorada",
-            "preco":{
-                "grande": 48.00,
-                "gidante": 96.00
+            "numero_cardapio": 14,
+            "preco": {
+                "gigante": 96.0,
+                "grande": 48.0
             },
-            "acompanhamentos":"Mussarela, Lombo, Bacon e Calabresa"
+            "tipo": "normal"
         },
         {
-            "_id":15,
+            "_id": "3161424dc40443c6a0cd5400e77c5ec3",
+            "acompanhamentos": [
+                "Mussarela",
+                "Calabresa Mo\u00edda",
+                "Ovo",
+                "Pimenta",
+                "Bacon"
+            ],
             "nome": "Baiana",
-            "preco":{
-                "grande": 48.00,
-                "gidante": 96.00
+            "numero_cardapio": 15,
+            "preco": {
+                "gigante": 96.0,
+                "grande": 48.0
             },
-            "acompanhamentos":"Mussarela, Calabresa Moída, Ovo, Pimenta e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":17,
+            "_id": "2370be5f690e46729dac3ebc56518341",
+            "acompanhamentos": [
+                "Atum",
+                "Cebola"
+            ],
             "nome": "Atum",
-            "preco":{
-                "grande": 43.00,
-                "gidante": 85.00
+            "numero_cardapio": 17,
+            "preco": {
+                "gigante": 85.0,
+                "grande": 43.0
             },
-            "acompanhamentos":"Atum e Cebola"
+            "tipo": "normal"
         },
         {
-            "_id":18,
+            "_id": "7eed3b55894043d3a5f4b9a3e9862bbb",
+            "acompanhamentos": [
+                "Mussarela",
+                "Atum",
+                "Tomate",
+                "Cebola",
+                "Parmes\u00e3o",
+                "Bacon"
+            ],
             "nome": "Atum II",
-            "preco":{
-                "grande": 43.00,
-                "gidante": 85.00
+            "numero_cardapio": 18,
+            "preco": {
+                "gigante": 85.0,
+                "grande": 43.0
             },
-            "acompanhamentos":"Mussarela, Atum, Tomate, Cebola, Parmesão e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":19,
+            "_id": "0681a5bccc334a17bf5a436024d88d2c",
+            "acompanhamentos": [
+                "Peito de Pero",
+                "Champignon",
+                "Cheddar",
+                "Mussarela"
+            ],
             "nome": "Chilena",
-            "preco":{
-                "grande": 48.00,
-                "gidante": 96.00
+            "numero_cardapio": 19,
+            "preco": {
+                "gigante": 96.0,
+                "grande": 48.0
             },
-            "acompanhamentos":"Peito de Pero, Champignon, Cheddar e Mussarela"
+            "tipo": "normal"
         },
         {
-            "_id":20,
+            "_id": "eba7178028ef491ebac5512973df72a8",
+            "acompanhamentos": [
+                "Tomate Seco",
+                "Mussarela",
+                "R\u00facula"
+            ],
             "nome": "Tomate Seco",
-            "preco":{
-                "grande": 48.00,
-                "gidante": 96.00
+            "numero_cardapio": 20,
+            "preco": {
+                "gigante": 96.0,
+                "grande": 48.0
             },
-            "acompanhamentos":"Tomate Seco, Mussarela e Rúcula"
+            "tipo": "normal"
         },
         {
-            "_id":21,
+            "_id": "4ee1d5d548fc4154b8a65f1d5a91fe68",
+            "acompanhamentos": [
+                "Br\u00f3colis",
+                "Palmito",
+                "Tomate",
+                "Mussarela",
+                "Bacon"
+            ],
             "nome": "Selva",
-            "preco":{
-                "grande": 46.00,
-                "gidante": 92.00
+            "numero_cardapio": 21,
+            "preco": {
+                "gigante": 92.0,
+                "grande": 46.0
             },
-            "acompanhamentos":"Brócolis, Palmito, Tomate, Mussarela e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":22,
+            "_id": "d6685b1517a44d1682b6376ae2edec62",
+            "acompanhamentos": [
+                "Frango",
+                "Mussarela",
+                "Bacon"
+            ],
             "nome": "Bom Apetite",
-            "preco":{
-                "grande": 45.00,
-                "gidante": 90.00
+            "numero_cardapio": 22,
+            "preco": {
+                "gigante": 90.0,
+                "grande": 45.0
             },
-            "acompanhamentos":"Frango, Mussarela e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":23,
+            "_id": "10eec810d4fa43948adb2d314e59d3ae",
+            "acompanhamentos": [
+                "Peito de Peru",
+                "Tomate",
+                "Palmito",
+                "Ovos",
+                "Atum",
+                "Mussarela"
+            ],
             "nome": "Peruana",
-            "preco":{
-                "grande": 48.00,
-                "gidante": 96.00
+            "numero_cardapio": 23,
+            "preco": {
+                "gigante": 96.0,
+                "grande": 48.0
             },
-            "acompanhamentos":"Peito de Peru, Tomate, Palmito, Ovos, Atum e Mussarela"
+            "tipo": "normal"
         },
         {
-            "_id":24,
+            "_id": "ced307b101764a2586e118546a101931",
+            "acompanhamentos": [
+                "Frango",
+                "Mussarela",
+                "Calabresa"
+            ],
             "nome": "Calafrango",
-            "preco":{
-                "grande": 48.00,
-                "gidante": 96.00
+            "numero_cardapio": 24,
+            "preco": {
+                "gigante": 96.0,
+                "grande": 48.0
             },
-            "acompanhamentos":"Frango, Mussarela e Calabresa"
+            "tipo": "normal"
         },
         {
-            "_id":25,
+            "_id": "7b17cd722e8343a09e69e275137dd12b",
+            "acompanhamentos": [
+                "Presunto",
+                "Palmito",
+                "Catupiry",
+                "Bacon"
+            ],
             "nome": "Romanesca",
-            "preco":{
-                "grande": 48.00,
-                "gidante": 96.00
+            "numero_cardapio": 25,
+            "preco": {
+                "gigante": 96.0,
+                "grande": 48.0
             },
-            "acompanhamentos":"Presunto, Palmito, Catupiry e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":26,
+            "_id": "498f75b020784c3db5f9e5d269198730",
+            "acompanhamentos": [
+                "Milho",
+                "Mussarela"
+            ],
             "nome": "Milho",
-            "preco":{
-                "grande": 37.99,
-                "gidante": 74.99
+            "numero_cardapio": 26,
+            "preco": {
+                "gigante": 74.99,
+                "grande": 37.99
             },
-            "acompanhamentos":"Milho e Mussarela"
+            "tipo": "normal"
         },
         {
-            "_id":27,
+            "_id": "7630da01a4d34161a7b219b025f5d8cb",
+            "acompanhamentos": [
+                "Presunto",
+                "Tomate",
+                "Mussarela"
+            ],
             "nome": "Mista",
-            "preco":{
-                "grande": 37.99,
-                "gidante": 74.99
+            "numero_cardapio": 27,
+            "preco": {
+                "gigante": 74.99,
+                "grande": 37.99
             },
-            "acompanhamentos":"Presunto, Tomate e Mussarela"
+            "tipo": "normal"
         },
         {
-            "_id":28,
+            "_id": "1bea7372994e44a2bfd86b9fcddcc0ba",
+            "acompanhamentos": [
+                "Mussarela",
+                "Tomate",
+                "Bacon"
+            ],
             "nome": "Bacon",
-            "preco":{
-                "grande": 37.99,
-                "gidante": 74.99
+            "numero_cardapio": 28,
+            "preco": {
+                "gigante": 74.99,
+                "grande": 37.99
             },
-            "acompanhamentos":"Mussarela, Tomate e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":29,
-            "nome": "Sete Estações",
-            "preco":{
-                "grande": 54.00,
-                "gidante": 108.00
+            "_id": "8b79271c9e624ab78385a0358a20a290",
+            "acompanhamentos": [
+                "Escolha Sete Ingredientes",
+                "Monte a Sua"
+            ],
+            "nome": "Sete Esta\u00e7\u00f5es",
+            "numero_cardapio": 29,
+            "preco": {
+                "gigante": 108.0,
+                "grande": 54.0
             },
-            "acompanhamentos":"Escolha Sete Ingredientes e Monte a Sua"
+            "tipo": "escolha-ingredientes"
         },
         {
-            "_id":30,
+            "_id": "68ce19154439433587237eb1ec5b7fa1",
+            "acompanhamentos": [
+                "Lombo",
+                "Cebola",
+                "Ovos",
+                "Catupiry"
+            ],
             "nome": "Lombo",
-            "preco":{
-                "grande": 45.00,
-                "gidante": 94.00
+            "numero_cardapio": 30,
+            "preco": {
+                "gigante": 94.0,
+                "grande": 45.0
             },
-            "acompanhamentos":"Lombo, Cebola, Ovos e Catupiry"
+            "tipo": "normal"
         },
         {
-            "_id":31,
-            "nome": "Brócolis",
-            "preco":{
-                "grande": 45.00,
-                "gidante": 92.00
+            "_id": "ddaa8a6b65a54cc8b9778b3dd625e5a8",
+            "acompanhamentos": [
+                "Br\u00f3colis",
+                "Catupiry",
+                "Bacon"
+            ],
+            "nome": "Br\u00f3colis",
+            "numero_cardapio": 31,
+            "preco": {
+                "gigante": 92.0,
+                "grande": 45.0
             },
-            "acompanhamentos":"Brócolis, Catupiry e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":32,
+            "_id": "76efee315cd9492789841a1aca7214fc",
+            "acompanhamentos": [
+                "Presunto",
+                "Frango",
+                "Palmito",
+                "Mussarela",
+                "Bacon"
+            ],
             "nome": "Palmares",
-            "preco":{
-                "grande": 46.00,
-                "gidante": 94.00
+            "numero_cardapio": 32,
+            "preco": {
+                "gigante": 94.0,
+                "grande": 46.0
             },
-            "acompanhamentos":"Presunto, Frango, Palmito, Mussarela e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":33,
+            "_id": "85760a0e0cd440dc8c0459445aca458e",
+            "acompanhamentos": [
+                "Mussarela",
+                "Tomate",
+                "Aliche",
+                "Parmes\u00e3o"
+            ],
             "nome": "Romana",
-            "preco":{
-                "grande": 46.00,
-                "gidante": 92.00
+            "numero_cardapio": 33,
+            "preco": {
+                "gigante": 92.0,
+                "grande": 46.0
             },
-            "acompanhamentos":"Mussarela, Tomate, Aliche e Parmesão"
+            "tipo": "normal"
         },
         {
-            "_id":34,
-            "nome": "Filé Mignon",
-            "preco":{
-                "grande": 54.00,
-                "gidante": 108.00
+            "_id": "afb8b797de03483282196c8336a96ddc",
+            "acompanhamentos": [
+                "Br\u00f3colis",
+                "File Mignon",
+                "Palmito",
+                "Mussarela"
+            ],
+            "nome": "Fil\u00e9 Mignon",
+            "numero_cardapio": 34,
+            "preco": {
+                "gigante": 108.0,
+                "grande": 54.0
             },
-            "acompanhamentos":"Brócolis, File Mignon, Palmito e Mussarela"
+            "tipo": "normal"
         },
         {
-            "_id":35,
+            "_id": "865d77d577db4c35ba1ca4d4a0e0a709",
+            "acompanhamentos": [
+                "Atum",
+                "Champignon",
+                "Cebola",
+                "Mussarela",
+                "Bacon"
+            ],
             "nome": "Argentina",
-            "preco":{
-                "grande": 44.00,
-                "gidante": 92.00
+            "numero_cardapio": 35,
+            "preco": {
+                "gigante": 92.0,
+                "grande": 44.0
             },
-            "acompanhamentos":"Atum, Champignon, Cebola, Mussarela e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":36,
+            "_id": "7d3044c6d02540989f6b28bb0ec48564",
+            "acompanhamentos": [
+                "Palmito",
+                "Tomate",
+                "Mussarela"
+            ],
             "nome": "Palmito",
-            "preco":{
-                "grande": 45.00,
-                "gidante": 92.00
+            "numero_cardapio": 36,
+            "preco": {
+                "gigante": 92.0,
+                "grande": 45.0
             },
-            "acompanhamentos":"Palmito, Tomate e Mussarela"
+            "tipo": "normal"
         },
         {
-            "_id":37,
+            "_id": "ed5ae2efbba64d009f33d557148f693c",
+            "acompanhamentos": [
+                "Mussarela",
+                "Calabresa",
+                "Cebola"
+            ],
             "nome": "Toscana",
-            "preco":{
-                "grande": 44.00,
-                "gidante": 90.00
+            "numero_cardapio": 37,
+            "preco": {
+                "gigante": 90.0,
+                "grande": 44.0
             },
-            "acompanhamentos":"Mussarela, Calabresa e Cebola"
+            "tipo": "normal"
         },
         {
-            "_id":38,
+            "_id": "333baa02df19459fa29942063a3eb31e",
+            "acompanhamentos": [
+                "Mussarela",
+                "Tomate"
+            ],
             "nome": "Mussarela",
-            "preco":{
-                "grande": 44.00,
-                "gidante": 90.00
+            "numero_cardapio": 38,
+            "preco": {
+                "gigante": 90.0,
+                "grande": 44.0
             },
-            "acompanhamentos":"Mussarela e Tomate"
+            "tipo": "normal"
         },
         {
-            "_id":39,
+            "_id": "0f76b946969b4c52b98b964fa7a617c4",
+            "acompanhamentos": [
+                "Lombo",
+                "Palmito",
+                "Mussarela",
+                "Tomate"
+            ],
             "nome": "Primavera",
-            "preco":{
-                "grande": 46.00,
-                "gidante": 92.00
+            "numero_cardapio": 39,
+            "preco": {
+                "gigante": 92.0,
+                "grande": 46.0
             },
-            "acompanhamentos":"Lombo, Palmito, Mussarela e Tomate"
+            "tipo": "normal"
         },
         {
-            "_id":40,
+            "_id": "e69f6f30df40405492bfc6c395a3557d",
+            "acompanhamentos": [
+                "Br\u00f3colis",
+                "Escarola",
+                "Palmito",
+                "Milho",
+                "Ervilha",
+                "Mussarela",
+                "Tomate"
+            ],
             "nome": "Seresta",
-            "preco":{
-                "grande": 44.00,
-                "gidante": 92.00
+            "numero_cardapio": 40,
+            "preco": {
+                "gigante": 92.0,
+                "grande": 44.0
             },
-            "acompanhamentos":"Brócolis, Escarola, Palmito, Milho, Ervilha, Mussarela e Tomate"
+            "tipo": "normal"
         },
         {
-            "_id":41,
+            "_id": "2bef66fbe8004ee98921e6872f52ec84",
+            "acompanhamentos": [
+                "Frango",
+                "Presunto",
+                "Catupiry",
+                "Calabresa",
+                "Bacon"
+            ],
             "nome": "Pizzaiola",
-            "preco":{
-                "grande": 48.00,
-                "gidante": 96.00
+            "numero_cardapio": 41,
+            "preco": {
+                "gigante": 96.0,
+                "grande": 48.0
             },
-            "acompanhamentos":"Frango, Presunto, Catupiry, Calabresa e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":42,
+            "_id": "758330ca4fcf4589b61ef0b9bdb38bd0",
+            "acompanhamentos": [
+                "Frango",
+                "Milho",
+                "Palmito",
+                "Mussarela",
+                "Bacon"
+            ],
             "nome": "Francesa",
-            "preco":{
-                "grande": 48.00,
-                "gidante": 96.00
+            "numero_cardapio": 42,
+            "preco": {
+                "gigante": 96.0,
+                "grande": 48.0
             },
-            "acompanhamentos":"Frango, Milho, Palmito, Mussarela e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":43,
+            "_id": "d6077b3d7c3a4991a1645cf7c0152a9f",
+            "acompanhamentos": [
+                "Frango",
+                "Br\u00f3colis",
+                "Lombo",
+                "Mussarela",
+                "Catupiry"
+            ],
             "nome": "Franbocolis",
-            "preco":{
-                "grande": 48.00,
-                "gidante": 96.00
+            "numero_cardapio": 43,
+            "preco": {
+                "gigante": 96.0,
+                "grande": 48.0
             },
-            "acompanhamentos":"Frango, Brócolis, Lombo, Mussarela e Catupiry"
+            "tipo": "normal"
         },
         {
-            "_id":45,
+            "_id": "cba95cad3e9648cd8dba14921aa4c5d8",
+            "acompanhamentos": [
+                "Peito de Peru",
+                "Mussarela",
+                "Cheddar"
+            ],
             "nome": "Peito de Peru",
-            "preco":{
-                "grande": 47.00,
-                "gidante": 94.00
+            "numero_cardapio": 45,
+            "preco": {
+                "gigante": 94.0,
+                "grande": 47.0
             },
-            "acompanhamentos":"Peito de Peru, Mussarela e Cheddar"
+            "tipo": "normal"
         },
         {
-            "_id":46,
-            "nome": "Alho e Óleo",
-            "preco":{
-                "grande": 45.00,
-                "gidante": 92.00
+            "_id": "877a1db6e6f547f0a978c9b51540f1f6",
+            "acompanhamentos": [
+                "Mussarela",
+                "Alho Frito"
+            ],
+            "nome": "Alho e \u00d3leo",
+            "numero_cardapio": 46,
+            "preco": {
+                "gigante": 92.0,
+                "grande": 45.0
             },
-            "acompanhamentos":"Mussarela e Alho Frito"
+            "tipo": "normal"
         },
         {
-            "_id":47,
+            "_id": "6187a229dfb14afeb6d23d98e1113e80",
+            "acompanhamentos": [
+                "Milho",
+                "Champignon",
+                "Catupiry",
+                "Bacon"
+            ],
             "nome": "Siciliana",
-            "preco":{
-                "grande": 45.00,
-                "gidante": 92.00
+            "numero_cardapio": 47,
+            "preco": {
+                "gigante": 92.0,
+                "grande": 45.0
             },
-            "acompanhamentos":"Milho, Champignon, Catupiry e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":48,
+            "_id": "1fd648a937a340bdbfaa69bbb61a84ef",
+            "acompanhamentos": [
+                "Presunto",
+                "Tomate",
+                "Azeitona Picada",
+                "Mussarela"
+            ],
             "nome": "Italiana",
-            "preco":{
-                "grande": 45.00,
-                "gidante": 90.00
+            "numero_cardapio": 48,
+            "preco": {
+                "gigante": 90.0,
+                "grande": 45.0
             },
-            "acompanhamentos":"Presunto, Tomate, Azeitona Picada e Mussarela"
+            "tipo": "normal"
         },
         {
-            "_id":49,
-            "nome": "Carijó",
-            "preco":{
-                "grande": 48.00,
-                "gidante": 96.00
+            "_id": "525ce6fdcf6f47a3ad240896f9a439ec",
+            "acompanhamentos": [
+                "Frango",
+                "Milho",
+                "Catupiry",
+                "Bacon"
+            ],
+            "nome": "Carij\u00f3",
+            "numero_cardapio": 49,
+            "preco": {
+                "gigante": 96.0,
+                "grande": 48.0
             },
-            "acompanhamentos":"Frango, Milho, Catupiry e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":50,
+            "_id": "245fc4a3c9584224ab6826f98fb56d4e",
+            "acompanhamentos": [
+                "Presunto",
+                "Palmito",
+                "Ovos",
+                "Mussarela",
+                "Calabresa",
+                "Bacon"
+            ],
             "nome": "Charmosa",
-            "preco":{
-                "grande": 50.00,
-                "gidante": 102.00
+            "numero_cardapio": 50,
+            "preco": {
+                "gigante": 102.0,
+                "grande": 50.0
             },
-            "acompanhamentos":"Presunto, Palmito, Ovos, Mussarela, Calabresa e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":51,
+            "_id": "94e92a150ad04afbaf79090f397c7ef8",
+            "acompanhamentos": [
+                "Catupiry",
+                "Calabresa",
+                "Cebola",
+                "Bacon"
+            ],
             "nome": "Calabacon",
-            "preco":{
-                "grande": 46.00,
-                "gidante": 96.00
+            "numero_cardapio": 51,
+            "preco": {
+                "gigante": 96.0,
+                "grande": 46.0
             },
-            "acompanhamentos":"Catupiry, Calabresa, Cebola e Bacon"
+            "tipo": "normal"
         },
         {
-            "_id":52,
+            "_id": "75efa6c7ee724ae1a736ef38828e27c7",
+            "acompanhamentos": [
+                "Salsicha",
+                "Mussarela",
+                "Milho",
+                "Tomate",
+                "Batata Palha"
+            ],
             "nome": "Hot Dog",
-            "preco":{
-                "grande": 37.99,
-                "gidante": 74.99
+            "numero_cardapio": 52,
+            "preco": {
+                "gigante": 74.99,
+                "grande": 37.99
             },
-            "acompanhamentos":"Salsicha, Mussarela, Milho, Tomate e Batata Palha"
+            "tipo": "normal"
         },
         {
-            "_id":53,
+            "_id": "891b0e6ea35c4498b6941402b59b409f",
+            "acompanhamentos": [
+                "Mussarela",
+                "Peperone"
+            ],
             "nome": "Peperone",
-            "preco":{
-                "grande": 48.00,
-                "gidante": 96.00
+            "numero_cardapio": 53,
+            "preco": {
+                "gigante": 96.0,
+                "grande": 48.0
             },
-            "acompanhamentos":"Mussarela e Peperone"
+            "tipo": "normal"
         },
         {
-            "_id":54,
+            "_id": "08cb3a77cbd340058fc31518e068bf98",
+            "acompanhamentos": [
+                "Nutella",
+                "Morango"
+            ],
             "nome": "Nutella",
-            "preco":{
-                "grande": 48.00,
-                "gidante": 100.00
+            "numero_cardapio": 54,
+            "preco": {
+                "gigante": 100.0,
+                "grande": 48.0
             },
-            "acompanhamentos":"Nutella e Morango"
+            "tipo": "doce"
         },
         {
-            "_id":55,
+            "_id": "da1bdb1588a64456b41da904c7cb3898",
+            "acompanhamentos": [
+                "Chocolate",
+                "Morango",
+                "Granulado"
+            ],
             "nome": "Chocolate",
-            "preco":{
-                "grande": 44.00,
-                "gidante": 90.00
+            "numero_cardapio": 55,
+            "preco": {
+                "gigante": 90.0,
+                "grande": 44.0
             },
-            "acompanhamentos":"Chocolate, Morango e Granulado"
+            "tipo": "doce"
         },
         {
-            "_id":56,
+            "_id": "b55c50824aac4e25bb5b8592d9d271b8",
+            "acompanhamentos": [
+                "Mussarela",
+                "Banana",
+                "Canela",
+                "A\u00e7ucar"
+            ],
             "nome": "Banana",
-            "preco":{
-                "grande": 38.00,
-                "gidante": 76.00
+            "numero_cardapio": 56,
+            "preco": {
+                "gigante": 76.0,
+                "grande": 38.0
             },
-            "acompanhamentos":"Mussarela, Banana, Canela e Açucar"
+            "tipo": "doce"
         },
         {
-            "_id":59,
+            "_id": "2665718ecc394d569f443cf3d7e93c28",
+            "acompanhamentos": [
+                "Mussarela",
+                "Goiabada"
+            ],
             "nome": "Romeu e Julieta",
-            "preco":{
-                "grande": 38.00,
-                "gidante": 76.00
+            "numero_cardapio": 59,
+            "preco": {
+                "gigante": 76.0,
+                "grande": 38.0
             },
-            "acompanhamentos":"Mussarela e Goiabada"
+            "tipo": "doce"
         },
         {
-            "_id":60,
+            "_id": "11fa7ad0c8684bd58d8ec67537d804c2",
+            "acompanhamentos": [
+                "Banana",
+                "Chocolate"
+            ],
             "nome": "Chocobanana",
-            "preco":{
-                "grande": 37.99,
-                "gidante": 74.99
+            "numero_cardapio": 60,
+            "preco": {
+                "gigante": 74.99,
+                "grande": 37.99
             },
-            "acompanhamentos":"Banana e Chocolate"
+            "tipo": "doce"
         }
     ]
 }
